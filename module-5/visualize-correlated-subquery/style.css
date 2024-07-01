@@ -1,0 +1,49 @@
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: 20px;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+.pointer {
+    font-size: 0;
+}
+
+.highlight .pointer {
+    font-size: 18px;
+}
+
+.joinCondition {
+    background-color: orange;
+}
+
+.matchedRow {
+    background-color: lightgreen;
+}
+
+.compareCell {
+    background-color: lightblue;
+}
+
+#wrapper > div {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+#left {
+    width: 65%;
+}
+#right {
+    width: 30%;
+    float: right !important;
+}
+table {
+    width: 100%;
+}
