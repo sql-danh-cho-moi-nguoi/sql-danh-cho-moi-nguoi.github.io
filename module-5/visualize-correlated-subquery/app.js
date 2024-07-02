@@ -55,7 +55,7 @@ async function executeQuery() {
 
     // B4: Tính toán và hiển thị giá trung bình
     const avgPrice = calculateAveragePrice(product.category);
-    row.cells[4].textContent = row.cells[4].textContent = avgPrice.toFixed(2);
+    row.cells[4].textContent = row.cells[4].textContent = avgPrice;
 
     // Highlight điều kiện WHERE
     row.cells[2].classList.add('compareCell');
