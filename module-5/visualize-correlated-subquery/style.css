@@ -47,3 +47,11 @@ td {
 table {
     width: 100%;
 }
+
+#sql {
+    background-color: #F5F5F5;
+    height: 30vh;
+}
+#sql img {
+    height: 100%;
+}
